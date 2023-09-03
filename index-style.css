@@ -173,6 +173,12 @@
     right: 20px;
 }
 
+.innerframeW > img {
+    margin: auto;
+    height: 490px;
+    width: 290px;
+}
+
 .outerframeW {
     background-color: white;
     height: 500px;
