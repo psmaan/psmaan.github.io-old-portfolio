@@ -168,13 +168,12 @@
     background-color: white;
     height: 500px;
     width: 300px;
-    position: absolute;
     bottom: 20px;
     right: 20px;
 }
 
 .innerframeW > img {
-    margin: auto;
+    margin: 5px 5px;
     height: 490px;
     width: 290px;
 }
