@@ -173,10 +173,9 @@
 }
 
 .innerframeW > img {
-    margin-left: 5px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    height: 490px;
-    width: 290px;
 }
 
 .outerframeW {
