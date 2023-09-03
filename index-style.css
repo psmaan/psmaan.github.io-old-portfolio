@@ -183,13 +183,9 @@
 }
 
 .outerframeB {
-    background-color: #1a1a1a;
+    background: url("PIYUSH\ MAAN/piyushmaan.jpeg");
     height: 490px;
     width: 290px;
-}
-
-.outerframe > img {
-    background
 }
 
 .content {
