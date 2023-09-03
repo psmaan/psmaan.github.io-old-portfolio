@@ -165,7 +165,7 @@
 }
 
 .innerframeW {
-    background-color: white;
+    background: url("PIYUSH\ MAAN/piyushmaan.jpeg");
     height: 500px;
     width: 300px;
     position: absolute;
@@ -183,7 +183,7 @@
 }
 
 .outerframeB {
-    background: url("PIYUSH\ MAAN/piyushmaan.jpeg");
+    background-color: black;
     height: 490px;
     width: 290px;
 }
