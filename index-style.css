@@ -173,7 +173,7 @@
 }
 
 .innerframeW > img {
-    padding-top: 5px;
+    margin-top: 5px;
     height: 490px;
     width: 290px;
 }
