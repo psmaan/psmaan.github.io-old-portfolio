@@ -83,7 +83,7 @@
     background-color: transparent;
 }
 
-.heading > h2 > button {
+.heading > h2 > a {
     font-family: roboto;
     font-weight: 500;
     margin-top: 20px;
