@@ -85,6 +85,9 @@
 
 .heading > a {
     text-decoration: none;
+}
+
+.heading > a > button{
     font-family: roboto;
     font-weight: 500;
     margin-top: 20px;
