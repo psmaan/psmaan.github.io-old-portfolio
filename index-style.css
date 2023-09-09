@@ -84,6 +84,7 @@
 }
 
 .heading > a {
+    text-decoration: none;
     font-family: roboto;
     font-weight: 500;
     margin-top: 20px;
