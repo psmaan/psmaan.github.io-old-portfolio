@@ -80,6 +80,7 @@
 
 .heading > img {
     width: 200px;
+    background-color: transparent;
 }
 
 .heading > h2 > button {
