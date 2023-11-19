@@ -1,7 +1,7 @@
 * {
     margin: 0;
 }
-/*changes test*/
+
 /*landing page*/
 
 .landing {
@@ -29,7 +29,7 @@
     float: right;
 }
 
-.navlist > li {
+.navlist li > a {
     font-family: roboto;
     font-weight: 500;
     font-size: 18px;
@@ -39,7 +39,7 @@
     list-style: none;
 }
 
-.navlist li > button {
+.navlist li button {
     background-color: transparent;
     border: solid white 3px;
     border-radius: 50px;
