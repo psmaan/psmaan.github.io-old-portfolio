@@ -39,7 +39,7 @@
     list-style: none;
 }
 
-.navlist li button {
+.navlist li > button {
     background-color: transparent;
     border: solid white 3px;
     border-radius: 50px;
@@ -80,10 +80,9 @@
 
 .heading > img {
     width: 200px;
-    background-color: transparent;
 }
 
-.gfg {
+.heading > h2 > button {
     font-family: roboto;
     font-weight: 500;
     margin-top: 20px;
