@@ -29,7 +29,7 @@
     float: right;
 }
 
-.navlist li > a{
+.navlist li > a:link{
     font-family: roboto;
     font-weight: 500;
     font-size: 18px;
@@ -37,6 +37,7 @@
     display: inline;
     color: white;
     list-style: none;
+    text-decoration: none;
 }
 
 .navlist li > button {
