@@ -29,19 +29,13 @@
     float: right;
 }
 
-.navlist a{
+.navlist a, a:link, a:visited, a:hover, a:active {
     font-family: roboto;
     font-weight: 500;
     font-size: 18px;
     margin-right: 20px;
     color: white;
     list-style: none;
-    text-decoration: none;
-}
-
-.navlist a:link, a:visited, a:hover, a:active {
-    color: white;
-    background-color: transparent;
     text-decoration: none;
 }
 
