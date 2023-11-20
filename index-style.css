@@ -40,6 +40,12 @@
     text-decoration: none;
 }
 
+.navlist li > a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 .navlist li > button {
     background-color: transparent;
     border: solid white 3px;
