@@ -29,7 +29,7 @@
     float: right;
 }
 
-.navlist a, a:link, a:visited, a:hover, a:active {
+.navlist li > a, a:link, a:visited, a:hover, a:active {
     font-family: roboto;
     font-weight: 500;
     font-size: 18px;
