@@ -39,6 +39,11 @@
     list-style: none;
 }
 
+.navlist li > a {
+    color: white;
+    text-decoration: none;
+}
+
 .navlist li > button {
     background-color: transparent;
     border: solid white 3px;
@@ -49,6 +54,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.navlist li > button > a {
+    color: white;
+    text-decoration: none;
 }
 
 /*landing page heading and intro*/
@@ -92,6 +102,11 @@
     border: solid white 3px;
     border-radius: 30px;
     font-size: 18px;
+}
+
+.heading > h2 > button > a {
+    color: white;
+    text-decoration: none;
 }
 
 /*services page*/
@@ -225,6 +240,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.content > button > a {
+    color: white;
+    text-decoration: none;
 }
 
 /*Socials page*/
