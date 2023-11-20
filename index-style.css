@@ -227,6 +227,19 @@
     font-size: 16px;
 }
 
+.content > button {
+    font-family: roboto;
+    font-weight: 500;
+    margin-top: 20px;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+    border: solid white 3px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+
 /*Socials page*/
 
 .connect {
