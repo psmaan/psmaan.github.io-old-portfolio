@@ -29,21 +29,17 @@
     float: right;
 }
 
-.navlist li > a, a:link, a:visited, a:hover, a:active {
+.navlist li {
     font-family: roboto;
     font-weight: 500;
     font-size: 18px;
     margin-right: 20px;
+    display: inline;
     color: white;
     list-style: none;
-    text-decoration: none;
 }
 
-.navlist li {
-    display: inline;
-}
-
-.nav-button > button > a, a:link, a:visited, a:hover, a:active {
+.navlist li > button {
     background-color: transparent;
     border: solid white 3px;
     border-radius: 50px;
@@ -206,6 +202,7 @@
 }
 
 .content > h2 {
+    margin-top: 100px;
     color: white;
     font-family: poppins;
     font-size: 40px;
@@ -229,19 +226,6 @@
     display: inline-block;
     font-size: 16px;
 }
-
-.content > button {
-    font-family: roboto;
-    font-weight: 500;
-    margin-top: 20px;
-    color: black;
-    padding: 10px 20px;
-    background-color: white;
-    border: solid white 3px;
-    border-radius: 30px;
-    font-size: 18px;
-}
-
 
 /*Socials page*/
 
