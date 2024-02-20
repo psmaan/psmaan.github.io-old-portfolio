@@ -512,7 +512,7 @@
     margin-top: 20px;
 }
 
-.leftconnect > form > input[type=submit]{
+.leftconnect > form > button{
     margin-top: 20px;
     display: block;
     background-color: white;
@@ -522,7 +522,7 @@
     transition: 0.3s;
 }
 
-.leftconnect > form > input[type=submit]:hover {
+.leftconnect > form > button:hover {
     margin-top: 20px;
     display: block;
     background-color: black;

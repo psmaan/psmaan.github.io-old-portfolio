@@ -61,9 +61,7 @@
 
             <div class="content">
                 <h2>WHO IS PIYUSH MAAN</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptatem sint nulla? 
-                    Numquam, iure. Temporibus eos facilis, saepe laudantium
-                     non voluptatum velit debitis quas odit veniam repellendus ex excepturi unde.</p>
+                <p>Hey, I am Piyush and am currently pursuing Bachelor’s in Computer Science. It is my second year and I have developed skills in various programming languages but mainly I am a frontend web developer and i create responsive frontend websites using my expertise in HTML, CSS and JavaScript..</p>
                 <button>Download CV</button>
             </div>
         </div>
@@ -73,14 +71,14 @@
         <div class="socialscontainer">
             <div class="leftconnect">
                 <h2>Let's work together</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi quis odio delectus quidem 
-                    provident eos tempore quos minus molestiae, 
-                    voluptatem eius vero veniam consequatur assumenda libero cupiditate rem neque.
+                <p>Hey there! Whether you have a brilliant project idea, need assistance with your website, 
+                    or just want to chat about the latest trends in web development, I'm here for you.
+                     Let's connect and turn your digital dreams into reality!
                 </p>
-                <form>
-                    <input type="text" id="fname" name="firstname" placeholder="Full Name">
-                    <input type="text" id="fname" name="firstname" placeholder="Email">
-                    <input type="submit" value="CONNECT">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="fname" name="firstname" placeholder="Full Name" required>
+                    <input type="text" id="email" name="emailid" placeholder="Email" required>
+                    <button type="submit">Connect</button>
                 </form>
             </div>
             <div class="vbar"></div>
@@ -109,6 +107,8 @@
         </div>
 
     </div>
-
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="index-js.js"></script>
 </body>
 </html>
