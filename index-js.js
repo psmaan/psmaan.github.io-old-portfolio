@@ -1,3 +1,7 @@
+function downloadResume() {
+    window.open("resume.pdf")
+}
+
 const form = document.querySelector("form");
 
 function sendEmail() {
