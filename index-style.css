@@ -124,8 +124,21 @@
     font-weight: 300;
 }
 
-.heading > img {
+.headshot-image-container {
     width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot-image-container > img {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    background-size: contain;
 }
 
 .heading > h2 > button {
@@ -171,10 +184,10 @@
 
 .projects {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     margin-top: 50px;
-
+    margin-left: 50px;
 }
 
 .projects > h2 {
@@ -189,28 +202,34 @@
     margin: 20px 0;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .frontend > div {
     background-color: white;
     height: 250px;
-    max-width: 444px;
-    aspect-ratio: 16/9;
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     overflow: hidden;
     position: relative;
+    margin-top: 20px;
 }
 
 .frontend > div > img{
-    overflow: hidden;
     height: 100%;
+    width: 800px;
     transition: all .2s;
+}
+
+.frontend-info {
+    margin: 20px;
+}
+
+.frontend-info > h2 {
+
 }
 
 .websites-bg {
@@ -242,24 +261,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.frontend > div:hover {
-    opacity: 1;
-    background-color: #1a1a1a;
-}
-
-.frontend > div:hover img {
-    transform: scale(1.25);
-    opacity: 0.2;
-}
-
-.frontend > div:hover .websites-bg > h2 {
-    opacity: 1;
-}
-
-.frontend > div:hover .uiux-projects-bg > h2 {
-    opacity: 1;
 }
 
 
@@ -599,6 +600,20 @@
         margin-left: 10%;
     }
 
+}
+
+.frontend-info > h2 {
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+.frontend-info > h3 {
+    font-family: roboto;
+    font-weight: 300;
+    color: #1a1a1a;
 }
 
 
